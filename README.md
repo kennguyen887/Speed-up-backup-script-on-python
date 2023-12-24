@@ -1,4 +1,4 @@
-### Accelerate folder backup using multiple threads in Python
+## Accelerate folder backup using multiple threads in Python
 
 The tool helps compress a folder using multiple threads, saving time and allowing configuration of the number of threads
 
