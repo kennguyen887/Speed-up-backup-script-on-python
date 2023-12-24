@@ -10,5 +10,11 @@ The tool helps compress a folder using multiple threads, saving time and allowin
    ```bash
    python3 tar-folder.py ./target-folder <thread_number>
 
+3. When backup done, you want to extract the tar file by this command
+
+   ```bash
+   ls *.tar.gz | xargs -n1 tar -xvzf
+
+### Screenshot
 
 ![htop](https://github.com/kennguyen887/Speed-up-backup-script-on-python/assets/123860745/c7d17ebd-b74f-4fef-938c-995f59554649)
